@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Firebase_Dynamic_Links</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
