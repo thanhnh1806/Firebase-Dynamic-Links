@@ -37,6 +37,14 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps"></activity>
+
+        <intent-filter>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.DEFAULT"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:host="kn7wh.app.goo.gl" android:scheme="http"/>
+            <data android:host="kn7wh.app.goo.gl" android:scheme="https"/>
+        </intent-filter>
     </application>
 
 </manifest>
